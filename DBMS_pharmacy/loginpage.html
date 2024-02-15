@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Eirkins Hospital</title>
+</head>
+<body>
+    <header class="header-links">
+        <strong>Eirkins Hospital</strong>
+            <a href="contact_us.html">Contact </a>
+            <a href="about.html">About Us </a>
+            <a href="help.html" role="button">Help</a>
+    </header>
+    <main class="container">
+        <div class="grid">
+            <section id="login">
+                <hgroup>
+                    <h1>Welcome Back!</h1>
+                    <h2>Login</h2>
+                </hgroup>
+                <form class="grid" action="login.php" method="post">
+                    <input type="text" id="username" name="username" placeholder="Username" aria-label="Username" required>
+                    <input type="password" id="password" name="password" placeholder="Password" aria-label="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                
+                <p class="signup-prompt">
+                    Don't have an account? <a href="signup.html">Sign Up now</a>
+            </section>
+            
+        </div>
+        
+    </main>
+
+    <footer class="container">
+        <small><a href="privacy_policy.html">Privacy Policy</a> • <a href="terms&cond.html">Terms of Service</a></small>
+        <img src="hospital_logo.webp" alt="Eirkins Hospital Logo" class="footer-logo">
+    </footer>
+</body>
+</html>

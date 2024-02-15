@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="stylesign.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form method="post" action="signup.php">
+        <input type="text" id="name" name="name" placeholder="Name" aria-label="Name" required>
+            <input type="text" id="username" name="username" placeholder="Username" aria-label="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" aria-label="Password" required>
+            <select id="role" name="role" aria-label="Role" required>
+                <option value="">Select Role</option>
+                <option value="patient">Patient</option>
+                <option value="doctor">Doctor</option>
+                <option value="company">Pharmaceutical Company</option>
+                <option value="pharmacist">Pharmacy</option>
+            </select>
+        <button type="submit">Continue</button>
+    </form>
+
+</body>
+<footer class="container">
+    <img src="hospital_logo.webp" alt="Eirkins Hospital Logo" class="footer-logo">
+</footer>
+</html>

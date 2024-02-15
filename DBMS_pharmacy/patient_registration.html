@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Patient</title>
+    <link rel="stylesheet" href="styledoctor.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Register as a Patient</h1>
+        <form action="patient.php" method="post">
+           <input type="text" id="patient_ssn" name="patient_ssn" placeholder="SSN" aria-label="Patient SSN" required>
+            <input type="text" id="patient_address" name="patient_address" placeholder="Address" aria-label="Patient Address" required>
+            <input type="integer" id="patient_age" name="patient_age" placeholder="Age" aria-label="Patient Age" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <img src="hospital_logo.webp" alt="Eirkins Hospital Logo" class="footer-logo">
+</footer>
+</html>

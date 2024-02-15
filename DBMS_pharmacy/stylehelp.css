@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111c29;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: white;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 0;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    color: antiquewhite;
+    /*align-self;:center*/
+}
+
+div {
+    padding: 1rem;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+ul {
+    list-style: inside square;
+}
+
+body > p:last-of-type {
+    font-style: italic;
+    text-align: center; /* If you also want this centered */
+}
+
+
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 220px;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #003366;
+    color: #fff;
+    position: relative;
+}
+
+.footer-logo {
+    align-content: right;
+    width: 50px; /* or any other dimensions */
+    height: auto;
+}
+
+/* Italics for the last line */
+footer p {
+    font-style: italic;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 0.5rem 0;
+        font-size: 1.2rem;
+    }
+
+    div {
+        width: 95%;
+    }
+
+    .footer-logo {
+        align-self: right;
+        width: 40px; /* Slightly smaller logo on mobile */
+    }
+}

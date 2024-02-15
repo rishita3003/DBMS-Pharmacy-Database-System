@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" type="text/css" href="styledoctor.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Doctor Registration</h1>
+        <form action="doctor.php" method="post">
+            <input type="text" id="doctor_ssn" name="doctor_ssn" placeholder="SSN" aria-label="Doctor SSN" required>
+            <input type="text" id="doctor_specialization" name="doctor_specialization" placeholder="Specialization" aria-label="Doctor Specialization" required>
+            <input type="number" id="doctor_experience" name="doctor_experience" placeholder="Experience" aria-label="Doctor Experience" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <img src="hospital_logo.webp" alt="Eirkins Hospital Logo" class="footer-logo">
+</footer>
+</html>
